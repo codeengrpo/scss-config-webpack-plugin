@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in development mode 1`] = `
+".foo {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1; }
+"
+`;
+
+exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in development mode with sourcemap 1`] = `
+".foo {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1; }"
+`;
+
+exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in production mode 1`] = `".foo{display:flex;flex-direction:row;flex:1 1}"`;
+
+exports[`ScssConfigWebpackPlugin inside webpack context should generate a valid font path 1`] = `"@font-face{font-family:OpenSans;src:url(ab6e9d5d7db5dfffc24d3b8c57d5619c.woff)}"`;
+
+exports[`ScssConfigWebpackPlugin inside webpack context should generate a valid font path for subfolders 1`] = `"@font-face{font-family:OpenSans;src:url(../../ab6e9d5d7db5dfffc24d3b8c57d5619c.woff)}"`;
+
+exports[`ScssConfigWebpackPlugin inside webpack context should generate separate CSS files with the correct contents 1`] = `".test{height:5px}"`;
