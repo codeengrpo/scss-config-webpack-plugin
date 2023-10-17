@@ -1,21 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in development mode 1`] = `
-".foo {
+"@font-face { font-family: ybd2a6; src:url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAARcAAsAAAAABlwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAAQgAAAGA2I0FLY21hcAAAAYgAAABKAAABcOEoo6pnbHlmAAAB1AAAALoAAADEtSXUXWhlYWQAAAKQAAAAMQAAADYlhpGSaGhlYQAAAsQAAAAfAAAAJAewA8RobXR4AAAC5AAAAAgAAAAIA8T//2xvY2EAAALsAAAABgAAAAYAYgAAbWF4cAAAAvQAAAAeAAAAIAENAEtuYW1lAAADFAAAASkAAAH+DPuT0XBvc3QAAARAAAAAGwAAACxqQQEEeJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGF8xDiBgZWBgSmZaQ8DA0MPhGZ8wGDIyAQUZWBlZsAKAtJcUxgOPGB4wMD8AsiNYnFiYATSjCiKmABgvwrdAAB4nO2QsQ2AMBADz8pDgRiBKjWzULG/2CT5GNgils6ST189sAAlOZMA3YiRK63sC5t9UH0Twz+09nfucKOVmd19fMu/ekEdGiYJUQAAeJwliFEOwTAch/tf202tWlZtbSYbEvGEbWJvk8wjD47gABLx6gYu4iou4w4M3y/5fsmH4N2An/iFKoSyTfnbFv7nFOUSyqLczH69AmusSUCC9VwJbiOcOOYbPUqF1DqKAqNCqS/nKmZDTjuEQIsJNRjt8vlqOo1Z4GPiuS1fqvHIXFmbM05dqvvFos6qVHR9iR2C97f4MMnXXFk9DLTPmRKBeBSkqzo6lAZOaX0/tkXPRskYfQA5xxr5AAB4nGNgZGBgAGKDP9Ir4/ltvjJwM78AijA8DFiWCKP/AwHzceY3QC4HAxNIFAB9eA63AAAAeJxjYGRgYH7BAATMR/7///+X+TgDIwMqYAIAmMEGewAAAAAAA8T//wAAAAAAYgAAeJxjYGRgYGBisGcA0SAWAwMXEDIw/AfzGQAOvgFZAAB4nF2QPU7DQBCFn/NjRAIIgYREtwWiAMlJXKTIAZI+EumdeO0kcrzWehPJLQfgAJyCA1BzLp7tKQg70uibb5/H0gK4xQ881MeD3/T6dHDBqeUu6Vq4R74X7mOIR2Gf9SQ8wCtehIdMv3GD17ukucJWuIMbOOEu/btwj/wh3McDPoV9+i/hAVb4Fh7i2bur1nEYTZc6PWaRbYe2r7QtdyZXk2DcioXOtY2cjtW6UuUpDZ1LVGLNQc1N7nSWGVVYs9cbF2ydK2ajUSI+2JgDKqwRI0SEKZbQSHFExsme3fzlFVMWJXYwyKEwQYDxWWLBRN6kIr6Iple8rdhLnPiHkNYh4ZwwY3AgzZttdTpjGZqiudvTbOgDvnP9VYEZRqzkXz5gipt+ARkKUyQAAAB4nGNgYoAALgbsgImRiZGZgSnTgIEBAARtALEA) format('woff');font-weight: normal;font-style: normal;}
+.foo {
   display: flex;
   flex-direction: row;
-  flex: 1 1; }
-"
+  flex: 1 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ybd2a6;
+  font-weight: normal;
+  content: '\\\\e000';
+}"
 `;
 
 exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in development mode with sourcemap 1`] = `
-".foo {
+"@font-face { font-family: ybd2a6; src:url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAARcAAsAAAAABlwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAAQgAAAGA2I0FLY21hcAAAAYgAAABKAAABcOEoo6pnbHlmAAAB1AAAALoAAADEtSXUXWhlYWQAAAKQAAAAMQAAADYlhpGUaGhlYQAAAsQAAAAfAAAAJAewA8RobXR4AAAC5AAAAAgAAAAIA8T//2xvY2EAAALsAAAABgAAAAYAYgAAbWF4cAAAAvQAAAAeAAAAIAENAEtuYW1lAAADFAAAASkAAAH+DPuT0XBvc3QAAARAAAAAGwAAACxqQQEEeJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGF8xDiBgZWBgSmZaQ8DA0MPhGZ8wGDIyAQUZWBlZsAKAtJcUxgOPGB4wMD8AsiNYnFiYATSjCiKmABgvwrdAAB4nO2QsQ2AMBADz8pDgRiBKjWzULG/2CT5GNgils6ST189sAAlOZMA3YiRK63sC5t9UH0Twz+09nfucKOVmd19fMu/ekEdGiYJUQAAeJwliFEOwTAch/tf202tWlZtbSYbEvGEbWJvk8wjD47gABLx6gYu4iou4w4M3y/5fsmH4N2An/iFKoSyTfnbFv7nFOUSyqLczH69AmusSUCC9VwJbiOcOOYbPUqF1DqKAqNCqS/nKmZDTjuEQIsJNRjt8vlqOo1Z4GPiuS1fqvHIXFmbM05dqvvFos6qVHR9iR2C97f4MMnXXFk9DLTPmRKBeBSkqzo6lAZOaX0/tkXPRskYfQA5xxr5AAB4nGNgZGBgAGKDP9JL4/ltvjJwM78AijA8DFiWBKP/AwHzceY3QC4HAxNIFAB8+g61AAAAeJxjYGRgYH7BAATMR/7///+X+TgDIwMqYAIAmMEGewAAAAAAA8T//wAAAAAAYgAAeJxjYGRgYGBisGcA0SAWAwMXEDIw/AfzGQAOvgFZAAB4nF2QPU7DQBCFn/NjRAIIgYREtwWiAMlJXKTIAZI+EumdeO0kcrzWehPJLQfgAJyCA1BzLp7tKQg70uibb5/H0gK4xQ881MeD3/T6dHDBqeUu6Vq4R74X7mOIR2Gf9SQ8wCtehIdMv3GD17ukucJWuIMbOOEu/btwj/wh3McDPoV9+i/hAVb4Fh7i2bur1nEYTZc6PWaRbYe2r7QtdyZXk2DcioXOtY2cjtW6UuUpDZ1LVGLNQc1N7nSWGVVYs9cbF2ydK2ajUSI+2JgDKqwRI0SEKZbQSHFExsme3fzlFVMWJXYwyKEwQYDxWWLBRN6kIr6Iple8rdhLnPiHkNYh4ZwwY3AgzZttdTpjGZqiudvTbOgDvnP9VYEZRqzkXz5gipt+ARkKUyQAAAB4nGNgYoAALgbsgImRiZGZgSnTgIEBAARtALEA) format('woff');font-weight: normal;font-style: normal;}
+.foo {
   display: flex;
   flex-direction: row;
-  flex: 1 1; }"
+  flex: 1 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ybd2a6;
+  font-weight: normal;
+  content: '\\\\e000';
+}"
 `;
 
-exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in production mode 1`] = `".foo{display:flex;flex-direction:row;flex:1 1}"`;
+exports[`ScssConfigWebpackPlugin inside webpack context should avoid common flexbox bugs in older browsers in production mode 1`] = `"@font-face{font-family:ybd2a6;font-style:normal;font-weight:400;src:url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAARcAAsAAAAABlwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAAQgAAAGA2I0FLY21hcAAAAYgAAABKAAABcOEoo6pnbHlmAAAB1AAAALoAAADEtSXUXWhlYWQAAAKQAAAAMQAAADYlhpGSaGhlYQAAAsQAAAAfAAAAJAewA8RobXR4AAAC5AAAAAgAAAAIA8T//2xvY2EAAALsAAAABgAAAAYAYgAAbWF4cAAAAvQAAAAeAAAAIAENAEtuYW1lAAADFAAAASkAAAH+DPuT0XBvc3QAAARAAAAAGwAAACxqQQEEeJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGF8xDiBgZWBgSmZaQ8DA0MPhGZ8wGDIyAQUZWBlZsAKAtJcUxgOPGB4wMD8AsiNYnFiYATSjCiKmABgvwrdAAB4nO2QsQ2AMBADz8pDgRiBKjWzULG/2CT5GNgils6ST189sAAlOZMA3YiRK63sC5t9UH0Twz+09nfucKOVmd19fMu/ekEdGiYJUQAAeJwliFEOwTAch/tf202tWlZtbSYbEvGEbWJvk8wjD47gABLx6gYu4iou4w4M3y/5fsmH4N2An/iFKoSyTfnbFv7nFOUSyqLczH69AmusSUCC9VwJbiOcOOYbPUqF1DqKAqNCqS/nKmZDTjuEQIsJNRjt8vlqOo1Z4GPiuS1fqvHIXFmbM05dqvvFos6qVHR9iR2C97f4MMnXXFk9DLTPmRKBeBSkqzo6lAZOaX0/tkXPRskYfQA5xxr5AAB4nGNgZGBgAGKDP9Ir4/ltvjJwM78AijA8DFiWCKP/AwHzceY3QC4HAxNIFAB9eA63AAAAeJxjYGRgYH7BAATMR/7///+X+TgDIwMqYAIAmMEGewAAAAAAA8T//wAAAAAAYgAAeJxjYGRgYGBisGcA0SAWAwMXEDIw/AfzGQAOvgFZAAB4nF2QPU7DQBCFn/NjRAIIgYREtwWiAMlJXKTIAZI+EumdeO0kcrzWehPJLQfgAJyCA1BzLp7tKQg70uibb5/H0gK4xQ881MeD3/T6dHDBqeUu6Vq4R74X7mOIR2Gf9SQ8wCtehIdMv3GD17ukucJWuIMbOOEu/btwj/wh3McDPoV9+i/hAVb4Fh7i2bur1nEYTZc6PWaRbYe2r7QtdyZXk2DcioXOtY2cjtW6UuUpDZ1LVGLNQc1N7nSWGVVYs9cbF2ydK2ajUSI+2JgDKqwRI0SEKZbQSHFExsme3fzlFVMWJXYwyKEwQYDxWWLBRN6kIr6Iple8rdhLnPiHkNYh4ZwwY3AgzZttdTpjGZqiudvTbOgDvnP9VYEZRqzkXz5gipt+ARkKUyQAAAB4nGNgYoAALgbsgImRiZGZgSnTgIEBAARtALEA) format(\\"woff\\")}.foo{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:\\"\\\\e000\\";display:flex;flex:1 1;flex-direction:row;font-family:ybd2a6;font-weight:400;text-rendering:auto}"`;
 
 exports[`ScssConfigWebpackPlugin inside webpack context should generate a valid font path 1`] = `"@font-face{font-family:OpenSans;src:url(ab6e9d5d7db5dfffc24d3b8c57d5619c.woff)}"`;
 

@@ -2,4 +2,5 @@
   display: flex;
   flex-direction: row;
   flex: 1;
+  font-icon: url('../svgicon/account-494x512.svg')
 }
